@@ -11,4 +11,3 @@ class TestMyProgram(unittest.TestCase):
 
 if name == 'main':
     unittest.main()
-        

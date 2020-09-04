@@ -1,13 +1,9 @@
 import unittest
+import os
 
 class TestMyProgram(unittest.TestCase):
+    def test(self):
+        os.system("D:\PycharmProjects\DA_Team08\scrapy.py")
 
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
-
-    def test_isupper(self):
-        self.assertTrue('FOO' .isupper())
-        self.assertFalse('Foo' .isupper())
-
-if name == 'main':
-    unittest.main()
+    if name == 'main':
+        unittest.main()

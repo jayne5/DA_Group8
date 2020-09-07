@@ -1,7 +1,9 @@
 import scrapy
-class NewSpider(scrapy.Spider):
-    name ="new_spider"
+# Create a new class
+class Web_Crawler(scrapy.Spider):
+    name ="Web_Crawler"
     start_urls = ['http://172.18.58.238/creative/']
+# Return an item requested by the URL
     def parse(self, response):
                 css_selector = 'img'
                 for x in response.css(css_selector):
